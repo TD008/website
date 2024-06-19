@@ -160,3 +160,35 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# React and yarn stuff
+
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Yarn Integrity
+.yarn-integrity
+.yarn/
+.yarn/cache
+.yarn/patches
+.yarn/releases
+.yarn/plugins
+.yarn/sdks
+.yarn/versions
+
+# Yarn debug log files
+yarn-debug.log*
+yarn-error.log*
+
+# Build Outputs
+build/
+dist/
+
+# Typescript 
+*.tsbuildinfo
+
+# Temporary Files
+tmp/
+temp/
